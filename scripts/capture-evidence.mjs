@@ -154,7 +154,6 @@ await screenshot('tarefa-15-viacep.png');
 await clickText('Pix');
 await clickTestId('confirm-order-button');
 await sleep(1600);
-await screenshot('tarefa-14-notificacao.png');
 
 await clickText('Acompanhar pedido');
 await screenshot('tarefa-16-publicacao.png');

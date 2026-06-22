@@ -59,6 +59,7 @@ export function ProductDetailsScreen({ route, navigation }) {
           title="Ver carrinho"
           variant="outline"
           onPress={() => navigation.navigate('MainTabs', { screen: 'Carrinho' })}
+          style={styles.cartButton}
         />
       </ScrollView>
     </Screen>
@@ -77,5 +78,6 @@ const styles = StyleSheet.create({
   quantityRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 20 },
   label: { fontSize: 13, fontWeight: '700' },
   price: { fontSize: 23, fontWeight: '900', marginTop: 3 },
-  button: { marginHorizontal: 20, marginTop: 25, marginBottom: 10 },
+  button: { width: '78%', alignSelf: 'center', marginTop: 25, marginBottom: 10 },
+  cartButton: { width: '78%', alignSelf: 'center' },
 });
