@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "InfnetFood",
+    "slug": "infnet-food",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-notifications"],
+    "web": {
+      "bundler": "metro",
+      "name": "InfnetFood"
+    },
+    "android": {
+      "package": "br.edu.infnet.infnetfood"
+    },
+    "ios": {
+      "bundleIdentifier": "br.edu.infnet.infnetfood"
+    }
+  }
+}
